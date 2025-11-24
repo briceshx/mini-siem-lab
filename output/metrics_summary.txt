@@ -1,0 +1,19 @@
+Mini SIEM Metrics Summary
+=========================
+
+Total events processed: 20
+- Windows security events: 9
+- Firewall events: 6
+- Web events: 5
+
+Alerts by type:
+- BRUTE_FORCE_LOGIN: 1
+- SUCCESS_AFTER_MULTIPLE_FAILURES: 1
+- PRIVILEGE_CHANGE: 2
+- POSSIBLE_PORT_SCAN: 1
+- SUSPICIOUS_WEB_ACCESS: 4
+
+Alerts by severity:
+- HIGH: 4
+- MEDIUM: 1
+- LOW: 4

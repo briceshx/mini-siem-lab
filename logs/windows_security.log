@@ -1,0 +1,10 @@
+2025-11-20T09:01:05Z|WIN-SRV01|4624|INFO|User logon successful|user=jdoe;ip=10.0.0.15
+2025-11-20T09:05:11Z|WIN-SRV01|4625|WARN|Failed logon attempt|user=jdoe;ip=203.0.113.10
+2025-11-20T09:05:20Z|WIN-SRV01|4625|WARN|Failed logon attempt|user=jdoe;ip=203.0.113.10
+2025-11-20T09:05:31Z|WIN-SRV01|4625|WARN|Failed logon attempt|user=jdoe;ip=203.0.113.10
+2025-11-20T09:06:02Z|WIN-SRV01|4624|INFO|User logon successful|user=jdoe;ip=203.0.113.10
+2025-11-20T10:15:45Z|DC01|4720|INFO|User account created|user=asmith;created_by=admin01
+2025-11-20T10:20:10Z|DC01|4728|INFO|User added to security-enabled global group|user=asmith;group=Domain Admins;added_by=admin01
+2025-11-20T11:00:00Z|WIN-SRV02|4625|WARN|Failed logon attempt|user=svc_backup;ip=198.51.100.23
+2025-11-20T11:01:10Z|WIN-SRV02|4625|WARN|Failed logon attempt|user=svc_backup;ip=198.51.100.23
+

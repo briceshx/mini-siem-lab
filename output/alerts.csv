@@ -1,0 +1,10 @@
+count,description,event_id,fail_count,host,ip,path,severity,source_ip,status,success_time,time_window_end,time_window_start,type,user
+3,3 failed logons from 203.0.113.10 within 10 minutes,,,,,,HIGH,203.0.113.10,,,2025-11-20 09:15:11,2025-11-20 09:05:11,BRUTE_FORCE_LOGIN,
+,Successful logon from 203.0.113.10 after 3 failures within 15 minutes,,3,,,,HIGH,203.0.113.10,,2025-11-20 09:06:02,,,SUCCESS_AFTER_MULTIPLE_FAILURES,
+,User account created,4720,,DC01,,,HIGH,,,,,,PRIVILEGE_CHANGE,asmith
+,User added to security-enabled global group,4728,,DC01,,,HIGH,,,,,,PRIVILEGE_CHANGE,asmith
+3,3 blocked connections from 203.0.113.10 within 10 minutes,,,,,,MEDIUM,203.0.113.10,,,,,POSSIBLE_PORT_SCAN,
+,Suspicious access to /wp-login.php from 203.0.113.10 (status 401),,,,203.0.113.10,/wp-login.php,LOW,,401,,,,SUSPICIOUS_WEB_ACCESS,
+,Suspicious access to /admin from 203.0.113.10 (status 403),,,,203.0.113.10,/admin,LOW,,403,,,,SUSPICIOUS_WEB_ACCESS,
+,Suspicious access to /login from 198.51.100.23 (status 200),,,,198.51.100.23,/login,LOW,,200,,,,SUSPICIOUS_WEB_ACCESS,
+,Suspicious access to /login from 198.51.100.23 (status 302),,,,198.51.100.23,/login,LOW,,302,,,,SUSPICIOUS_WEB_ACCESS,
