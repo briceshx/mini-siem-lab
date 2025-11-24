@@ -3,7 +3,7 @@
 This project simulates a small SIEM (Security Information and Event Management) pipeline for Level 1–2 security operations.
 
 It ingests simulated:
-- Windows Security Event logs
+- Security Event logs
 - Firewall logs
 - Web server access logs
 
@@ -13,14 +13,6 @@ Then:
 - Generates an alert list and a short metrics summary
 - Concludes with a professional-style security report
 
----
-
-## 🧱 Objectives
-
-- Demonstrate understanding of **SIEM concepts** using realistic logs.
-- Practice **log analysis, correlation, and alerting** with Python.
-- Show the ability to **document findings** in a professional report.
-- Build a **GitHub-ready security project** for a SOC / security analyst or IT support role.
 
 ---
 
